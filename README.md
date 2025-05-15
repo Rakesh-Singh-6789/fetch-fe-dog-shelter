@@ -88,7 +88,7 @@ The following endpoints are used:
 - `/dogs` - Get details for specific dogs
 - `/dogs/match` - Generate a match based on favorite dogs
 
-### Known Issue: CORS Restrictions
+### Known Issue: CORS Restrictions (FIXED by Fetchrewards Team)
 
 1. The dog images are hosted on a different domain than the API service:
    - Authorized domain: `frontend-take-home-service.fetch.com`
