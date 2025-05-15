@@ -98,6 +98,16 @@ The following endpoints are used:
 
 For this demo application, we've implemented user-friendly error states to handle these CORS restrictions gracefully.
 
+#### CORS Error Screenshots
+
+Below are screenshots demonstrating the CORS errors encountered when attempting to load dog images directly:
+
+![CORS Error in Console](docs/images/cors1.png)
+*Screenshot 1: Browser console showing the CORS policy error*
+
+![CORS Error on Dog Card](docs/images/cors2.png)
+*Screenshot 2: How the error appears in the user interface*
+
 ## Project Structure
 
 - `/src/components` - Reusable UI components
