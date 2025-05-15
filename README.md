@@ -98,14 +98,14 @@ The following endpoints are used:
 
 For this demo application, shown an error img to handle these CORS restrictions.
 
-#### CORS Error Screenshots
+### CORS Error Screenshots:
 
 Below are screenshots demonstrating the CORS errors encountered when attempting to load dog images directly:
+
 *Screenshot 1: Browser console showing the success with domain frontend-take-home-service.fetch.com*
 ![CORS Error in Console](docs/images/cors1.png)
 -
--
-*Screenshot 2:  Browser console 403 CORS with domain frontend-take-home.fetch.com*
+#*Screenshot 2:  Browser console 403 CORS with domain frontend-take-home.fetch.com*
 ![CORS Error on Dog Card](docs/images/cors2.png)
 
 
