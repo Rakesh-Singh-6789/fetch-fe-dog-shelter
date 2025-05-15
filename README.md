@@ -96,7 +96,7 @@ The following endpoints are used:
 2. Cross-Origin Resource Sharing (CORS) restrictions prevent direct loading of these images in the browser
 3. The browser's security policies block loading resources from a different origin without proper CORS headers
 
-For this demo application, we've implemented user-friendly error states to handle these CORS restrictions gracefully.
+For this demo application, shown an error img to handle these CORS restrictions.
 
 ## Project Structure
 
