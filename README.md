@@ -1,6 +1,6 @@
 # Fetch Dog Shelter
 
-A React application for browsing and finding shelter dogs, developed for the Fetch Frontend Take-Home Exercise.
+A React application for browsing and finding shelter dogs, developed using Fetch API.
 
 ## Live Demo
 
