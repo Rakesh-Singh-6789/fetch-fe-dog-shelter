@@ -88,27 +88,6 @@ The following endpoints are used:
 - `/dogs` - Get details for specific dogs
 - `/dogs/match` - Generate a match based on favorite dogs
 
-### Known Issue: CORS Restrictions (FIXED by Fetchrewards Team)
-
-1. The dog images are hosted on a different domain than the API service:
-   - Authorized domain: `frontend-take-home-service.fetch.com`
-   - Image resource domain: `frontend-take-home.fetch.com`
-2. Cross-Origin Resource Sharing (CORS) restrictions prevent direct loading of these images in the browser
-3. The browser's security policies block loading resources from a different origin without proper CORS headers
-
-For this demo application, shown an error img to handle these CORS restrictions.
-
-### CORS Error Screenshots:
-
-Below are screenshots demonstrating the CORS errors encountered when attempting to load dog images directly:
-
-*Screenshot 1: Browser console showing the success with domain frontend-take-home-service.fetch.com*
-![CORS Error in Console](docs/images/cors1.png)
--
-#*Screenshot 2:  Browser console 403 CORS with domain frontend-take-home.fetch.com*
-![CORS Error on Dog Card](docs/images/cors2.png)
-
-
 ## Project Structure
 
 - `/src/components` - Reusable UI components
